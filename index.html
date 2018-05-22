@@ -1,18 +1,10 @@
 ---
 ---
 
-<script type="text/javascript">
-function change() {
-  var select = document.getElementById('select');
-  var iframe = document.getElementById('iframe');
-  iframe.src = 'frames/' + select.selectedIndex + '.html';
-}
-</script>
-
 {% assign ids = site.charts | times: 12 | minus: 1 %}
 
 <div>
-  <select id="select" onchange="change();">
+  <select id="select" onload="console.log(123);change();" onchange="change();">
     {% for id in (0..ids) %}
       {% assign chart = id | divided_by: 12 | plus: 1 %}
       {% assign level = id | modulo: 12 %}
@@ -21,4 +13,16 @@ function change() {
   </select>
 </div>
 
-<iframe id="iframe" src="frames/1.html" width="70%" height=80%></iframe>
+<div id="frame"></div>
+
+
+<script type="text/javascript">
+async function change() {
+  var select = document.getElementById('select');
+  var frame = document.getElementById('frame');
+  let newpage = await fetch('frames/' + select.selectedIndex + '.html').then(r => r.text());
+  frame.innerHTML = newpage;
+}
+
+change();
+</script>
