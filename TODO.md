@@ -4,4 +4,5 @@
 -   add countdown
 -   local storage of level
 -   embed customizable youtube iframe on top
--   add data of alternate running / walking
+-   previous/next buttons
+-   add data of alternative running / walking
