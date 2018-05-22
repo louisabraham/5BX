@@ -1,0 +1,167 @@
+names:
+  - Stretching
+  - Sit-ups
+  - Back extension
+  - Push-ups
+  - In place running
+
+duration:
+  - 2
+  - 1
+  - 1
+  - 1
+  - 6
+
+descriptions:
+  -
+    - |+
+      Feet astride, arms upward.
+      
+      Forward bend to floor touching then stretch upward and backward bend.
+      
+      Do not strain to keep knees straight.      
+    - |+
+      Back lying, feet 6" apart, arms at sides.
+      
+      Sit up just far enough to see your heels.
+      
+      Keep legs straight, head and shoulders must clear the floor.
+    - |+
+      Front lying, palms placed under the thighs.
+      
+      Raise head and one leg, repeat using legs alternately.
+      
+      Keep leg straight at the knee, thighs must clear the palms. (Count one
+      each time second leg touches floor.)
+    - |+
+      Front lying, hands under the shoulders, palms flat on the floor.
+
+      Straighten arms lifting upper body, keeping the knees on the floor. Bend
+      arms to lower body.
+
+      Keep body straight from the knees, arms must be fully extended, chest
+      must touch floor to complete one movement.
+      
+    - |+
+      **Stationary run** - (count a step each time left foot touches floor.
+      Lift feet approximately 4 inches off floor). Every 75 steps do 10
+      "scissor jumps". Repeat this sequence until required number of steps is
+      completed.
+
+      **Scissor jumps** - Stand with right leg and left arm extended forward,
+      and left leg and right arm extended backward. Jump up - change position
+      of arms and legs before landing. Repeat (arms shoulder high).
+
+  -
+    - |+
+      Feet astride, arms upward.
+
+      Touch floor and press (bounce) once then stretch upward and backward
+      bend. Do not strain to keep knees straight.
+
+    - |+
+      Back lying, feet 6\" apart, arms at sides.
+
+      "Sit up" to vertical position, keep feet on floor even if it is
+      necessary to hook them under a chair. Allow knees to bend slightly.
+      
+    - |+
+      Front lying, palms placed under the thighs.
+
+      Raise head, shoulders and both legs.
+
+      Keep legs straight, both thighs must clear the palms.
+      
+    - |+
+      Front lying, hands under the shoulders, palms flat on the floor.
+
+      Straighten arms to lift body with only palms and toes on the floor. Back
+      straight.
+
+      Chest must touch floor for each completed movement after arms have been
+      fully extended.
+
+    - |+
+      **Stationary run** - (count a step each time left foot touches floor.
+      Lift feet approximately 4 inches off floor). Every 75 steps do 10
+      "astride jumps". Repeat this sequence until required number of steps is
+      completed.
+
+      **Astride jumps** - feet toghether, arms at side. Jump and land with
+      feet astride and arms raised sideways to slightly above shoulder height.
+      Return with a jump to the starting position for count of one. Keep arms
+      straight.
+
+  -
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+  -
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+  -
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+  -
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+    - |+
+
+
+
+repetitions:
+  -
+    - [2,3,4,2,100]
+    - [3,4,5,3,145]
+    - [4,5,6,3,175]
+    - [6,7,8,4,205]
+    - [7,8,10,5,235]
+    - [8,9,12,6,260]
+    - [10,11,13,7,280]
+    - [12,12,14,8,305]
+    - [14,13,15,9,320]
+    - [16,15,16,11,335]
+    - [18,17,17,12,375]
+    - [20,18,18,13,400]
+  -
+    - [14,10,13,9,335]
+    - [15,11,14,10,360]
+    - [16,12,15,11,380]
+    - [18,13,17,12,395]
+    - [19,14,19,13,410]
+    - [20,15,21,14,425]
+    - [22,16,23,15,440]
+    - [24,17,25,16,455]
+    - [26,18,27,17,455]
+    - [28,20,29,18,470]
+    - [29,21,31,19,485]
+    - [30,23,33,30,500]
