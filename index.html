@@ -18,11 +18,15 @@
 
 <script type="text/javascript">
 async function change() {
-  var select = document.getElementById('select');
-  var frame = document.getElementById('frame');
-  let newpage = await fetch('frames/' + select.selectedIndex + '.html').then(r => r.text());
+  var pageid = select.selectedIndex;
+  window.localStorage.level = pageid;
+  let newpage = await fetch('frames/' + pageid + '.html').then(r => r.text());
   frame.innerHTML = newpage;
 }
-
+var frame = document.getElementById('frame');
+var select = document.getElementById('select');
+if (window.localStorage.level){
+  select.selectedIndex = window.localStorage.level
+}
 change();
 </script>
