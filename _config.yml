@@ -1,4 +1,4 @@
-exclude: ["generate.py", "TODO.md"]
+exclude: ["generate.py", "TODO.md", "download_images.py"]
 
 baseurl: /5BX
 
