@@ -47,10 +47,13 @@ change();
 var youtube = document.getElementById('youtube');
 
 function change_yt() {
-  var video_id = yt_url.value.split('v=')[1];
-  var ampersandPosition = video_id.indexOf('&');
-  if(ampersandPosition != -1) {
-    video_id = video_id.substring(0, ampersandPosition);
+  if (yt_url.value.substring(0, 17) === 'https://youtu.be/')
+    var video_id = yt_url.value.substring(17)
+  else {
+    var video_id = yt_url.value.split('v=')[1];
+    var ampersandPosition = video_id.indexOf('&');
+    if (ampersandPosition != -1)
+      video_id = video_id.substring(0, ampersandPosition);
   }
   window.localStorage.yt_url = yt_url.value;
   yt_div.innerHTML = '<iframe id="youtube" width="640" height="360" src="https://www.youtube.com/embed/' + video_id + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
