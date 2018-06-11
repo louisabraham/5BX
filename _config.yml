@@ -1,4 +1,10 @@
 exclude: ["generate.py", "TODO.md"]
 url: http://louisabraham.github.io/5BX
 
-charts: 2
+charts: 3
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
