@@ -3,6 +3,20 @@
 
 {% assign ids = site.charts | times: 12 | minus: 1 %}
 
+<button onclick="youtube.style.display = youtube.style.display === 'none' ? '' : 'none'" id='yt_button'>Show/hide Youtube panel</button>
+<div id="youtube" style='display:none'>
+
+  <input type="text" id="yt_url">
+  <button onclick="change_yt()">Change video url</button>
+
+  <br>
+
+  <div id="youtube_player"></div>
+
+</div>
+
+<br>
+
 <div>
   <select id="select" onload="console.log(123);change();" onchange="change();">
     {% for id in (0..ids) %}
@@ -29,4 +43,26 @@ if (window.localStorage.level){
   select.selectedIndex = window.localStorage.level
 }
 change();
+
+function toggle_yt(){
+  
+}
+var youtube = document.getElementById('youtube');
+
+function change_yt() {
+  var video_id = yt_url.value.split('v=')[1];
+  var ampersandPosition = video_id.indexOf('&');
+  if(ampersandPosition != -1) {
+    video_id = video_id.substring(0, ampersandPosition);
+  }
+  window.localStorage.yt_url = yt_url.value;
+  yt_div.innerHTML = '<iframe id="youtube" width="640" height="360" src="https://www.youtube.com/embed/' + video_id + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
+}
+var yt_div = document.getElementById('youtube_player');
+var yt_url = document.getElementById('yt_url');
+if (window.localStorage.yt_url){
+  yt_url.value = window.localStorage.yt_url
+}
+change_yt()
+
 </script>
