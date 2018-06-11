@@ -94,15 +94,39 @@ descriptions:
 
   -
     - |+
+      Feet astride, arms upward. Touch floor 6\" outside left foot, again
+      between feet and press once then 6\" outside right foot, bend backward
+      as far as possible, repeat, reverse direction after half the number of
+      counts. Do not strain to keep knees straight, return to erect position.
 
     - |+
-
+      Back lying, feet 6\" apart, arms clasped behind head. Sit up to vertical
+      position, keep feet on floor hook feet under a chair, etc., only if
+      necessary.
+      
     - |+
-
+      Front lying, hands interlocked behind the back. Lift head, shoulders,
+      chest and both legs as high as possible. Keep legs straight, and raise
+      chest and both thighs completely off floor.
+      
     - |+
-
+      Front lying, hands under the shoulders, palms flat on the floor. Touch
+      chin to floor in front of hands -- Touch forehead to floor behind hands
+      before returning to up position. There are three definite movements,
+      chin, forehead, arms straightened. Do not do in one continuous movement.
+      
     - |+
+      **Stationary run** - (count a step each time left foot touches floor.
+      Lift feet approximately 4 inches off floor). Every 75 steps do 10 "half
+      knee bends". Repeat this sequence until required number of steps is
+      completed.
 
+      **Half knee bends** - Feet together, hands on hips, knees bent to form
+      an angle of about 110 degrees. Do not bend knees past a right angle.
+      Straighten to upright position, raising heel off floor, return to
+      starting position each time. Keep feet in contact with floor--the back
+      upright and straight at all times.
+      
   -
     - |+
 
@@ -165,3 +189,16 @@ repetitions:
     - [28,20,29,18,470]
     - [29,21,31,19,485]
     - [30,23,33,30,500]
+  -
+    - [24,20,29,15,400]
+    - [24,21,30,15,415]
+    - [24,22,31,15,430]
+    - [26,23,33,16,450]
+    - [26,24,34,17,465]
+    - [26,25,35,17,480]
+    - [28,26,37,18,490]
+    - [28,27,39,19,500]
+    - [28,28,41,20,510]
+    - [30,30,43,21,525]
+    - [30,31,45,22,540]
+    - [30,32,47,24,550]

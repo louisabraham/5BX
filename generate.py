@@ -1,7 +1,7 @@
 from pathlib import Path
 
 DST = Path("frames")
-CHARTS = 2
+CHARTS = 3
 LEVELS = 12
 
 levels = [(chart, level)
