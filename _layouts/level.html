@@ -4,6 +4,7 @@
   <div id='ex{{ i | plus: 1 }}'>
     <h2>Exercise {{ i | plus: 1 }}: {{ site.data.exercises.names[i] }}</h2>
     {{ site.data.exercises.descriptions[page.chart][i] | markdownify }}
+    <img src="/assets/img/chart{{ page.chart }}_ex{{ i }}.png"></img>
     <h3> {{ site.data.exercises.repetitions[page.chart][page.level][i] }} reps
     in {{ site.data.exercises.duration[i] }} min
     </h3>
