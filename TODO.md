@@ -1,5 +1,5 @@
--   finish to enter yaml data from
-    <http://fit450.com/HTML/5BX_chart2.html>
+-   finish to enter yaml data from <http://fit450.com/HTML/5BX_chart2.html>
+-   add description as homepage
 -   nice styling
 -   add countdown
 -   previous/next buttons
