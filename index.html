@@ -47,6 +47,11 @@ change();
 var youtube = document.getElementById('youtube');
 
 function change_yt() {
+  if (yt_url.value === "") {
+    window.localStorage.yt_url = "";
+    yt_div.innerHTML = "";
+    return;
+  }
   if (yt_url.value.substring(0, 17) === 'https://youtu.be/')
     var video_id = yt_url.value.substring(17)
   else {
