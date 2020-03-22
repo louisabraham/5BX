@@ -13,24 +13,23 @@ duration:
   - 6
 
 descriptions:
-  -
-    - |+
+  - - |+
       Feet astride, arms upward.
-      
+
       Forward bend to floor touching then stretch upward and backward bend.
-      
-      Do not strain to keep knees straight.      
+
+      Do not strain to keep knees straight.
     - |+
       Back lying, feet 6" apart, arms at sides.
-      
+
       Sit up just far enough to see your heels.
-      
+
       Keep legs straight, head and shoulders must clear the floor.
     - |+
       Front lying, palms placed under the thighs.
-      
+
       Raise head and one leg, repeat using legs alternately.
-      
+
       Keep leg straight at the knee, thighs must clear the palms. (Count one
       each time second leg touches floor.)
     - |+
@@ -41,7 +40,7 @@ descriptions:
 
       Keep body straight from the knees, arms must be fully extended, chest
       must touch floor to complete one movement.
-      
+
     - |+
       **Stationary run** - (count a step each time left foot touches floor.
       Lift feet approximately 4 inches off floor). Every 75 steps do 10
@@ -52,8 +51,7 @@ descriptions:
       and left leg and right arm extended backward. Jump up - change position
       of arms and legs before landing. Repeat (arms shoulder high).
 
-  -
-    - |+
+  - - |+
       Feet astride, arms upward.
 
       Touch floor and press (bounce) once then stretch upward and backward
@@ -64,14 +62,14 @@ descriptions:
 
       "Sit up" to vertical position, keep feet on floor even if it is
       necessary to hook them under a chair. Allow knees to bend slightly.
-      
+
     - |+
       Front lying, palms placed under the thighs.
 
       Raise head, shoulders and both legs.
 
       Keep legs straight, both thighs must clear the palms.
-      
+
     - |+
       Front lying, hands under the shoulders, palms flat on the floor.
 
@@ -92,8 +90,7 @@ descriptions:
       Return with a jump to the starting position for count of one. Keep arms
       straight.
 
-  -
-    - |+
+  - - |+
       Feet astride, arms upward. Touch floor 6\" outside left foot, again
       between feet and press once then 6\" outside right foot, bend backward
       as far as possible, repeat, reverse direction after half the number of
@@ -103,18 +100,18 @@ descriptions:
       Back lying, feet 6\" apart, arms clasped behind head. Sit up to vertical
       position, keep feet on floor hook feet under a chair, etc., only if
       necessary.
-      
+
     - |+
       Front lying, hands interlocked behind the back. Lift head, shoulders,
       chest and both legs as high as possible. Keep legs straight, and raise
       chest and both thighs completely off floor.
-      
+
     - |+
       Front lying, hands under the shoulders, palms flat on the floor. Touch
       chin to floor in front of hands -- Touch forehead to floor behind hands
       before returning to up position. There are three definite movements,
       chin, forehead, arms straightened. Do not do in one continuous movement.
-      
+
     - |+
       **Stationary run** - (count a step each time left foot touches floor.
       Lift feet approximately 4 inches off floor). Every 75 steps do 10 "half
@@ -126,9 +123,8 @@ descriptions:
       Straighten to upright position, raising heel off floor, return to
       starting position each time. Keep feet in contact with floor--the back
       upright and straight at all times.
-      
-  -
-    - |+
+
+  - - |+
 
     - |+
 
@@ -138,8 +134,7 @@ descriptions:
 
     - |+
 
-  -
-    - |+
+  - - |+
 
     - |+
 
@@ -149,8 +144,7 @@ descriptions:
 
     - |+
 
-  -
-    - |+
+  - - |+
 
     - |+
 
@@ -163,42 +157,39 @@ descriptions:
 
 
 repetitions:
-  -
-    - [2,3,4,2,100]
-    - [3,4,5,3,145]
-    - [4,5,6,3,175]
-    - [6,7,8,4,205]
-    - [7,8,10,5,235]
-    - [8,9,12,6,260]
-    - [10,11,13,7,280]
-    - [12,12,14,8,305]
-    - [14,13,15,9,320]
-    - [16,15,16,11,335]
-    - [18,17,17,12,375]
-    - [20,18,18,13,400]
-  -
-    - [14,10,13,9,335]
-    - [15,11,14,10,360]
-    - [16,12,15,11,380]
-    - [18,13,17,12,395]
-    - [19,14,19,13,410]
-    - [20,15,21,14,425]
-    - [22,16,23,15,440]
-    - [24,17,25,16,455]
-    - [26,18,27,17,455]
-    - [28,20,29,18,470]
-    - [29,21,31,19,485]
-    - [30,23,33,20,500]
-  -
-    - [24,20,29,15,400]
-    - [24,21,30,15,415]
-    - [24,22,31,15,430]
-    - [26,23,33,16,450]
-    - [26,24,34,17,465]
-    - [26,25,35,17,480]
-    - [28,26,37,18,490]
-    - [28,27,39,19,500]
-    - [28,28,41,20,510]
-    - [30,30,43,21,525]
-    - [30,31,45,22,540]
-    - [30,32,47,24,550]
+  - - [2, 3, 4, 2, 100]
+    - [3, 4, 5, 3, 145]
+    - [4, 5, 6, 3, 175]
+    - [6, 7, 8, 4, 205]
+    - [7, 8, 10, 5, 235]
+    - [8, 9, 12, 6, 260]
+    - [10, 11, 13, 7, 280]
+    - [12, 12, 14, 8, 305]
+    - [14, 13, 15, 9, 320]
+    - [16, 15, 16, 11, 335]
+    - [18, 17, 17, 12, 375]
+    - [20, 18, 18, 13, 400]
+  - - [14, 10, 13, 9, 335]
+    - [15, 11, 14, 10, 360]
+    - [16, 12, 15, 11, 380]
+    - [18, 13, 17, 12, 395]
+    - [19, 14, 19, 13, 410]
+    - [20, 15, 21, 14, 425]
+    - [22, 16, 23, 15, 440]
+    - [24, 17, 25, 16, 455]
+    - [26, 18, 27, 17, 455]
+    - [28, 20, 29, 18, 470]
+    - [29, 21, 31, 19, 485]
+    - [30, 23, 33, 20, 500]
+  - - [24, 20, 29, 15, 400]
+    - [24, 21, 30, 15, 415]
+    - [24, 22, 31, 15, 430]
+    - [26, 23, 33, 16, 450]
+    - [26, 24, 34, 17, 465]
+    - [26, 25, 35, 17, 480]
+    - [28, 26, 37, 18, 490]
+    - [28, 27, 39, 19, 500]
+    - [28, 28, 41, 20, 510]
+    - [30, 30, 43, 21, 525]
+    - [30, 31, 45, 22, 540]
+    - [30, 32, 47, 24, 550]
