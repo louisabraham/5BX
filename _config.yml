@@ -2,7 +2,7 @@ exclude: ["generate.py", "TODO.md", "download_images.py"]
 
 baseurl: /5BX
 
-charts: 3
+charts: 4
 
 defaults:
   - scope:
